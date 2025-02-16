@@ -196,14 +196,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceText: {fileID: 7360708320650769288}
-  typeSpeed: 25
-  punctuationWait: 0.2
+  typeSpeed: 40
+  punctuationWait: 0.15
   punctuation: "!,.?\u2014:;"
   playOnAwake: 1
   preWait: 0
-  postWait: 0.5
+  postWait: 0.25
   clickToSkip: 1
-  waitForClick: 1
+  waitForClick: 0
   clickPrompt: " \u203A"
   hideWhenDone: 1
   TMPTagSupport: 1

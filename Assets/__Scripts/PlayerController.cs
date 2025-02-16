@@ -47,11 +47,11 @@ public class PlayerController : MonoBehaviour
 
     public void RaftMode()
     {
-        transform.DORotate(Vector3.zero, 15f).SetEase(Ease.InElastic).OnComplete(() =>
+        transform.DORotate(Vector3.zero, 15f).SetEase(Ease.InOutElastic).OnComplete(() =>
         {
             mode = ControlMode.Raft;
         });
-        verticalLookObject.transform.DOLocalRotateQuaternion(verticalLookInitialRotation, 12f).SetEase(Ease.InElastic);
+        verticalLookObject.transform.DOLocalRotateQuaternion(verticalLookInitialRotation, 12f).SetEase(Ease.InOutElastic);
     }
 
     public void FreeMode()

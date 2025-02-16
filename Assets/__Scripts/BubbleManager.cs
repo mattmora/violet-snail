@@ -17,14 +17,15 @@ public class BubbleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        string bubble = (bubbleCount == 1) ? "bubble" : "bubbles";
         if (bubbleCountType.allDone)
         {
-            bubbleCountText.text = $"You have {bubbleCount} bubbles.";
+            bubbleCountText.text = $"You have {bubbleCount} {bubble}.";
             bubbleCountBackText.text = $"<mark=#000000>{bubbleCountText.text}</mark>";
         }
         else
         {
-            bubbleCountType.typeString = $"You have {bubbleCount} bubbles.";
+            bubbleCountType.typeString = $"You have {bubbleCount} {bubble}.";
         }
 
         if (!preparingBubble && Input.GetKeyDown(KeyCode.B))

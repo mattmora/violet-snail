@@ -13,7 +13,8 @@ public class TypeText : MonoBehaviour
     [Tooltip("Additional time to wait after punctuation in seconds.")]
     public float punctuationWait;
 
-    public string punctuation = "!,.?-—";
+    // public string punctuation = "!,.?-—";
+    public string punctuation = "!,.?-";
 
     public bool playOnAwake;
     public float preWait;
