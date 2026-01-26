@@ -9,12 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: water ocean
   m_Shader: {fileID: 4800000, guid: 585366621acbcfc43805e78785fb85b8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - GEOM_TYPE_BRANCH_DETAIL
   - GEOM_TYPE_FROND
   - GEOM_TYPE_LEAF
   - GEOM_TYPE_MESH
-  - USINGWATERVOLUME
   - _GERSTNERDISPLACEMENT
   - _PIXELSNAP_POINT
   m_InvalidKeywords:
@@ -28,6 +29,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -187,3 +189,4 @@ Material:
     - _UnderWaterReflCol: {r: 0.6251192, g: 0.75248003, b: 0.79454404, a: 1}
     - _UpperColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
