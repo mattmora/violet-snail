@@ -17581,7 +17581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360708320650769288, guid: b6612795d39fdf149b1e8e55bda01d88, type: 3}
       propertyPath: m_text
-      value: Then you eyes began to break down, and blindness overtook you.
+      value: Then your eyes began to break down, and blindness overtook you.
       objectReference: {fileID: 0}
     - target: {fileID: 7360708321829046580, guid: b6612795d39fdf149b1e8e55bda01d88, type: 3}
       propertyPath: m_Pivot.x
